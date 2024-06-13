@@ -12,7 +12,7 @@ public class Controller {
     @Autowired
     public SnowFlake snowFlake;
 
-    @RequestMapping("/getid")
+    @RequestMapping("/getuid")
     public Map getID(){
         //这里直接调用该方法 获取雪花算法生成ID
         long id = snowFlake.getID();
