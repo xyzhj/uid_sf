@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>zhj</groupId>
     <artifactId>uid_sf</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.4</version>
     <name>uid_sf</name>
     <description>uid_sf</description>
     <properties>
@@ -77,6 +77,14 @@
                 </executions>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                </includes>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
     </build>
-
 </project>
